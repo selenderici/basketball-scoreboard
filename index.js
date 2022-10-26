@@ -40,13 +40,3 @@ function newGame() {
     score1 = 0
     score2 = 0
 }
-
-function winner() {
-    if (score1 > score2) {
-        scoreHome.style.cssText = "white";
-    } else if (score2 > score1) {
-        scoreGuess.style.cssText = "white";
-    } else {
-    }
-
-}
